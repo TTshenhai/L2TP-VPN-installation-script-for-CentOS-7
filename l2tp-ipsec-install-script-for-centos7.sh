@@ -139,6 +139,7 @@ clear
 mknod /dev/random c 1 9
 
 #安装依赖的组件
+yum install epel-release
 yum -y update
 yum install -y openswan ppp xl2tpd wget
 
